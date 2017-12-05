@@ -7,6 +7,6 @@ public class ForTest {
     public static void main(String[] a ){
         System.out.println("test update");
         System.out.println("I am a dev");
-        System.out.println("repair the bug");
+        System.out.println("dev...");
     }
 }
