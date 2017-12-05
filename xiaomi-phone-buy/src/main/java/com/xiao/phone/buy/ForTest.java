@@ -5,6 +5,6 @@ package com.xiao.phone.buy;
  */
 public class ForTest {
     public static void main(String[] a ){
-        System.out.println("45");
+        System.out.println("test update");
     }
 }
