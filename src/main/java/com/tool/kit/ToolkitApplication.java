@@ -1,12 +1,8 @@
 package com.tool.kit;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-@SpringBootApplication
 public class ToolkitApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ToolkitApplication.class, args);
-	}
+    public static void main(String[] args) {
+        //        SpringApplication.run(ToolkitApplication.class, args);
+    }
 }
