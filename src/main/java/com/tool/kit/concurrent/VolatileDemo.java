@@ -1,4 +1,4 @@
-package com.tool.kit.demo;
+package com.tool.kit.concurrent;
 
 /**
  * Created by zhangwei on 2018/3/12.
@@ -12,7 +12,7 @@ public class VolatileDemo {
             int i = 0;
             while (!stop) {
                 i++;
-                //                System.out.println("i:" + i);
+                System.out.println();
             }
         }).start();
 
