@@ -10,5 +10,4 @@ public class Insect {
         System.out.println("i="+i+", j="+j);
         j=39;
     }
-    private static int x1=printInit("");
 }
