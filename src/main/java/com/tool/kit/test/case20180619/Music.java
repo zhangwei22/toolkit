@@ -12,7 +12,7 @@ public class Music {
 
     public static void main(String[] args) {
         Wind flute = new Wind();
-        //向上转型
+        //向上转型:用到了后期绑定（后期绑定也叫动态绑定或运行时绑定）
         tune(flute);
     }
 }
