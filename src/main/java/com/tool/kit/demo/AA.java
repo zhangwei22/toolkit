@@ -5,20 +5,23 @@ package com.tool.kit.demo;
  */
 public class AA {
 
-    public synchronized void demo() {
-        System.out.println("2364");
+    public static void main(String[] args) {
+        Box<String> box = new Box<>("zhangwei");
+        System.out.println("name:" + box.getData());
+
+        Box<Integer> box1 = new Box<>(24);
+        System.out.println("number:" + box1.getData());
+
+        getData(box);
+        getData(box1);
     }
 
-    public static void main(String[] args) {
-        //        System.out.println(1.235 * 10);
-        //        System.out.println(1.235 / 10);
-        //        System.out.println(12.35 / 10);
-        //        System.out.println(123.5 / 10);
-        System.out.println(1.235f * 10);
-        System.out.println(1.235f / 10);
-        System.out.println(12.35f / 10);
-        System.out.println(123.5f / 10);
+    public static void getData(Box<?> data) {
+        System.out.println("data:" + data.getData());
+    }
 
+    public static void getUpperNumerData(Box<? extends Number> data) {
+        System.out.println("number:" + data.getData());
     }
 
 }
